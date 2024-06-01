@@ -7,7 +7,7 @@ using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 
-namespace DevFreela.Infrastructure.Repositories;
+namespace DevFreela.Infrastructure.Persistence.Repositories;
 public class ProjectRepository : IProjectRepository
 {
     private readonly DevFreelaDbContext _dbContext;
