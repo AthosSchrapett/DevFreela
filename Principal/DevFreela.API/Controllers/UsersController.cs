@@ -55,6 +55,6 @@ public class UsersController : ControllerBase
             return BadRequest();
         }
 
-        return NoContent();
+        return Ok(loginUserViewModel);
     }
 }
